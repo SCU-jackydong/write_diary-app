@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="姓名:"
+            />
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="0dp"
+        android:textSize="40dp"
+        android:background="@drawable/edit_background"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+
+        android:hint="请输入姓名" />
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="年龄:"
+            />
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="0dp"
+
+            android:background="@drawable/edit_background"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:hint="请输入年龄" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:text="账号:"
+            />
+        <EditText
+            android:id="@+id/edit3"
+            android:layout_width="0dp"
+            android:textSize="40dp"
+            android:background="@drawable/edit_background"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+
+            android:hint="请输入账号" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:text="密码:"
+            />
+        <EditText
+            android:id="@+id/edit4"
+            android:layout_width="0dp"
+           android:textSize="40dp"
+            android:background="@drawable/edit_background"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+
+            android:hint="请输入密码" />
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/zhuce_button1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:backgroundTint="@color/white"
+            android:text="注册"
+           android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ff00ee"/>
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        />
+
+</LinearLayout>
